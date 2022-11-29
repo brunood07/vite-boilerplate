@@ -1,10 +1,10 @@
-import { Teste } from ".";
+import { Test } from ".";
 
-const Template = () => <Teste />;
+const Template = () => <Test />;
 
 export const Default = Template.bind({});
 
 export default {
-  title: "Teste",
-  component: Teste,
+  title: "Test",
+  component: Test,
 };

@@ -1,3 +1,10 @@
+import { Test } from "../../components/test";
+
 export function Home() {
-  return <h1>HOME</h1>
+  return (
+    <div>
+      <h1>HOME</h1>
+      <Test />
+    </div>
+  );
 }

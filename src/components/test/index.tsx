@@ -1,7 +1,3 @@
-export function Teste() {
-  return (
-    <div className="text-lg text-red-500 bg-slate-900">
-      <h1>Teste</h1>
-    </div>
-  );
+export function Test() {
+  return <h2 className="text-lg text-[#FF0000]">Teste</h2>;
 }
