@@ -6,8 +6,6 @@ describe("Testing the test component", () => {
   it("Should render a red heading by default", () => {
     render(<Test />);
 
-    expect(screen.getByRole("heading")).toHaveStyle({
-      color: "#FF0000",
-    });
+    expect(screen.getByRole("heading")).toHaveClass("text-[#FF0000]");
   });
 });
